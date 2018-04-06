@@ -15,9 +15,6 @@ namespace QLabTest
         private static ChromeDriver Chrome;
         private static TestHelper TH;
 
-        // testermim 
-        // 05042018MIM
-
         [ClassInitialize]
         public static void InitializeClass(TestContext testContext) // 
         {            
