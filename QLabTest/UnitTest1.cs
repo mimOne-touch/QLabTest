@@ -12,7 +12,7 @@ namespace QLabTest
     {
         static string baseURL;
         private static int wait_time;      
-        private static ChromeDriver Chrome; 
+        private static ChromeDriver Chrome;  
         private static TestHelper TH;
 
 
