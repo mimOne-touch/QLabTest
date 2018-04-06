@@ -11,9 +11,10 @@ namespace QLabTest
     public class UnitTest1
     {
         static string baseURL;
-        private static int wait_time; // кол-во секунд для ожидания элемента на странице        
+        private static int wait_time;      
         private static ChromeDriver Chrome;
         private static TestHelper TH;
+
 
         [ClassInitialize]
         public static void InitializeClass(TestContext testContext) // 
